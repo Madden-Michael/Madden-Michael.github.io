@@ -1,0 +1,49 @@
+title: "Michael Madden — Mechanical/Aerospace Engineer"
+description: "Portfolio — satellite design, manufacturing, and systems engineering"
+url: "https://Madden-Michael.github.io"
+# Minimal Mistakes via remote_theme (works natively on GitHub Pages)
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jemoji
+  - jekyll-paginate
+
+# Collections for projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Defaults for project pages
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: single
+      author_profile: false
+      toc: true
+      toc_sticky: true
+      classes: wide
+
+# Navigation (header links)
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "About"
+    url: /about/
+  - title: "Resume"
+    url: /resume/
+  - title: "Contact"
+    url: /contact/
+
+# Skin/options
+minimal_mistakes_skin: "default"
+logo: /assets/images/headshot.jpg
