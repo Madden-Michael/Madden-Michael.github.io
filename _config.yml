@@ -47,3 +47,6 @@ navigation:
 # Skin/options
 minimal_mistakes_skin: "default"
 logo: /assets/images/headshot.jpg
+
+sass:
+  sass_dir: assets/css
