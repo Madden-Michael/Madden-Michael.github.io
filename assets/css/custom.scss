@@ -1,2 +1,18 @@
 // Light visual polish, still fast
 .page__content img { border-radius: 12px; }
+
+// Navbar logo styling
+.site-logo img {
+  border-radius: 50%;     // makes it round
+  border: 2px solid #ccc; // subtle border
+  padding: 2px;           // space between border & image
+  background: white;      // ensures a clean edge if image has transparency
+}
+
+.site-logo img, .page__content img {
+  transition: transform 0.2s ease-in-out;
+}
+
+.site-logo img:hover, .page__content img:hover {
+  transform: scale(1.05);
+}
