@@ -16,3 +16,50 @@
 .site-logo img:hover, .page__content img:hover {
   transform: scale(1.05);
 }
+
+/* Ensure custom styles compile */
+@charset "utf-8";
+
+/* --- NAV TAB: dot-to-underline hover --- */
+/* Target the main navigation links in Minimal Mistakes */
+.greedy-nav .visible-links a {
+  position: relative;
+  padding-bottom: 0.35rem;   /* space for the underline */
+  text-decoration: none;     /* remove default underline */
+}
+
+/* Start as a centered dot */
+.greedy-nav .visible-links a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -6px;
+  height: 2px;
+  width: 8px;                /* the "dot" width */
+  background: currentColor;  /* matches link color/skin */
+  border-radius: 2px;        /* rounded ends so the dot looks clean */
+  opacity: 0.75;
+  transition: width 0.22s ease-out, opacity 0.22s ease-out;
+}
+
+/* On hover/focus, stretch to a full underline */
+.greedy-nav .visible-links a:hover::after,
+.greedy-nav .visible-links a:focus::after {
+  width: 100%;
+  opacity: 1;
+}
+
+/* Keep underline on the current page/tab */
+.greedy-nav .visible-links li.current > a::after,
+.greedy-nav .visible-links a[aria-current="page"]::after {
+  width: 100%;
+  opacity: 1;
+}
+
+/* Optional: crisper feel on desktop */
+@media (hover: hover) {
+  .greedy-nav .visible-links a {
+    transition: color 0.15s ease-in-out;
+  }
+}
