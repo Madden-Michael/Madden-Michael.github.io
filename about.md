@@ -1,8 +1,10 @@
 ---
 layout: single
 title: "About"
-classes: wide
+classes: full
 toc: false
+author_profile: false
+sidebar: false
 ---
 
 I’m a hands-on Mechanical and Aerospace Engineer focused on systems engineering, satellite design, and production. I like solving problems that touch design and the manufacturing floor, then closing the loop with testing and verification.
