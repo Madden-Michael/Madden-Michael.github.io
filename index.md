@@ -2,7 +2,7 @@
 layout: splash
 author_profile: false
 title: "Mechanical and Aerospace Engineer — Satellite Design, Manufacturing, and Systems Engineering"
-excerpt: "Hands-on engineer: Delivering and manufacturing validated designs for aerospace systems."
+excerpt: "Hands-on engineer: Delivering and manufacturing validated designs for aerospace systems. V5"
 header:
   overlay_color: "#0b1020"
   overlay_filter: "0.3"
