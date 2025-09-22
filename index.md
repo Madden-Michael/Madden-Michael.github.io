@@ -1,3 +1,4 @@
+---
 layout: splash
 author_profile: false
 title: "Mechanical and Aerospace Engineer — Satellite Design, Manufacturing, and Systems Engineering"
@@ -9,6 +10,7 @@ header:
     - label: "Download Resume (PDF)"
       url: /files/MichaelMaddenAerospaceResume.pdf
       target: "_blank" # Opens in a new tab
+---
 
 ### Featured Projects
 {% assign featured = site.projects | where: "featured", true | slice: 3 %}
