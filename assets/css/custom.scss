@@ -66,3 +66,25 @@
 }
 
 .page__footer a[href$="feed.xml"] { display: none !important; }
+
+/* --- Layout tuning: reduce big left gutter on wide screens --- */
+@media (min-width: 1200px) {
+  /* Center hero text and reduce left padding on splash pages */
+  .layout--splash .page__hero--overlay .wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 1200px;
+  }
+
+  /* Trim inner content padding for general pages */
+  .layout--single .page__inner-wrap,
+  .layout--splash .initial-content .page__inner-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-width: 1200px;
+  }
+}

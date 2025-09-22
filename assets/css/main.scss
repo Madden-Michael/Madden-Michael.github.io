@@ -1,0 +1,6 @@
+// Import theme skin and core (uses your `_config.yml` skin)
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+// Custom overrides
+@import "custom";
