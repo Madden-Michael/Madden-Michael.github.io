@@ -13,6 +13,9 @@ plugins:
   - jemoji
   - jekyll-paginate
 
+# Use directory-style URLs (e.g., /about/ instead of /about.html)
+permalink: pretty
+
 # Collections for projects
 collections:
   projects:
