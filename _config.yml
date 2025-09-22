@@ -57,3 +57,17 @@ logo: /assets/images/headshot.jpg
 
 sass:
   sass_dir: assets/css
+
+# Author profile (used by author_profile: true)
+author:
+  name: "Michael Madden"
+  avatar: "/assets/images/headshot.jpg"
+  bio: "Mechanical/Aerospace engineer focused on systems engineering, satellite design, manufacturing, and test."
+  location: "Florida, USA" # update if you prefer a specific city
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/madden-michael"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/Madden-Michael"
