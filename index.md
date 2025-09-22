@@ -9,7 +9,8 @@ header:
   actions:
     - label: "Download Resume (PDF)"
       url: /files/MichaelMaddenAerospaceResume.pdf
-      target: "_blank" # Opens in a new tab
+      new_window: true
+      btn_class: "btn--primary"
 ---
 
 ### Featured Projects
