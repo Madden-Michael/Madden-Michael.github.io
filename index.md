@@ -4,9 +4,15 @@ author_profile: true
 title: "Mechanical and Aerospace Engineer — Satellite Design, Manufacturing, and Systems Engineering"
 classes: full
 excerpt: "Hands-on engineer: Delivering and manufacturing validated designs for aerospace systems. V10-ProjectsChanges"
+header:
+  overlay_color: "#0b1020"
+  overlay_filter: "0.3"
+  actions:
+    - label: "Download Resume (PDF)"
+      url: /files/MichaelMaddenAerospaceResume.pdf
+      new_window: true
+      btn_class: "btn--primary"
 ---
-
-{% include button url="/files/MichaelMaddenAerospaceResume.pdf" text="Download Resume (PDF)" class="btn--primary" icon="fas fa-file-pdf" new_window=true %}
 
 ## Featured Project
 {% assign featured = site.projects | where: "featured", true | slice: 1 %}
