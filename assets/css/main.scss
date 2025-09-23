@@ -1,8 +1,9 @@
 ---
 ---
 // Import theme skin and core (hardcoded skin to avoid Liquid in Sass)
-@import "minimal-mistakes/skins/default";
+{@import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
 
 // Custom overrides
 @import "custom";
+}

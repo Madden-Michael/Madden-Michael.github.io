@@ -6,7 +6,7 @@ classes: full
 excerpt: "Hands-on engineer: Delivering and manufacturing validated designs for aerospace systems. V10-ProjectsChanges"
 ---
 
-{% include button.html url="/files/MichaelMaddenAerospaceResume.pdf" text="Download Resume (PDF)" class="btn--primary" icon="fas fa-file-pdf" new_window=true %}
+{% include button url="/files/MichaelMaddenAerospaceResume.pdf" text="Download Resume (PDF)" class="btn--primary" icon="fas fa-file-pdf" new_window=true %}
 
 ## Featured Project
 {% assign featured = site.projects | where: "featured", true | slice: 1 %}
