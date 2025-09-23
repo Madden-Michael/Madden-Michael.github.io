@@ -29,6 +29,7 @@ I’m a hands-on Mechanical and Aerospace Engineer focused on systems engineerin
 
 ## Proof of Work
 
+<!-- Images temporarily disabled until they are available
 {% include figure image_path="/assets/images/your-mechanism.jpg" alt="Precision mechanism assembly" caption="Mechanisms & Precision Assemblies — exploded view to final fit-up." %}
 
 {% include figure image_path="/assets/images/your-thermal-plot.png" alt="Thermal model/plot" caption="Thermal Analysis — conduction/radiation trade study and margin tracking." %}
@@ -36,5 +37,6 @@ I’m a hands-on Mechanical and Aerospace Engineer focused on systems engineerin
 {% include figure image_path="/assets/images/your-abaqus-plot.png" alt="Abaqus mesh and stress plot" caption="FEA (Abaqus) — sizing and margin assessment with report-ready plots." %}
 
 {% include figure image_path="/assets/images/your-test-rig.jpg" alt="Lab test rig" caption="Test & Validation — custom lab rig with procedure and data review." %}
+-->
 
 If you share the text of your Skills section (or let me pull text from your resume PDF), I can replace these summaries with an exact, resume‑accurate list ordered by aerospace relevance.
