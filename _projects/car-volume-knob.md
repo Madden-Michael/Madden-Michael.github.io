@@ -6,7 +6,7 @@ tags: [arduino, 3d printing, electronics, personal project]
 categories: [personal]
 featured: false
 header:
-  teaser: /assets/images/teasers/car-volume-knob.svg
+  teaser: /assets/images/teasers/VolumeKnob.jpg
 ---
 
 ### Problem

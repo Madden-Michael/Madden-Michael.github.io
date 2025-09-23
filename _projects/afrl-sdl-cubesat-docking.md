@@ -6,7 +6,7 @@ tags: [systems engineering, mission design, cubesat, space]
 categories: [space]
 featured: true
 header:
-	teaser: /assets/images/teasers/afrl-sdl-cubesat-docking.svg
+  teaser: /assets/images/teasers/AFRLxSDL.png
 ---
 
 ### Overview

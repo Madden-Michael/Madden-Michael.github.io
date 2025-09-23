@@ -4,9 +4,9 @@ excerpt: "TA for 32 students/semester. Taught manual machining and engineering d
 teaser_line: "TA: manual machining + engineering design for 32 students/semester."
 tags: [manufacturing, machining, education, teaching]
 categories: [manufacturing]
-featured: true
+featured: false
 header:
-	teaser: /assets/images/teasers/design-manufacturing-lab.svg
+  teaser: /assets/images/teasers/DML.jpg
 ---
 
 ### Overview

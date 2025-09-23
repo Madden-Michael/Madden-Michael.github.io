@@ -4,9 +4,9 @@ excerpt: "Student-led payload design through Orbital Gators. Contributed to payl
 teaser_line: "Payload design with the Orbital Gators student team."
 tags: [student project, payload, mechanisms, design]
 categories: [projects]
-featured: true
+featured: false
 header:
-	teaser: /assets/images/teasers/gator-arms.svg
+  teaser: /assets/images/teasers/GATORArms.png
 ---
 
 ### Overview
