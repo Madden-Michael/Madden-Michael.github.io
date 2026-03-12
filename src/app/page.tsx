@@ -73,8 +73,7 @@ export default function Home() {
                 src="/assets/images/orbital-gators.svg"
                 alt="Orbital Gators Logo"
                 width={300}
-                height={300}
-                className="w-full h-full object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity"
+                className="w-full h-full object-contain brightness-0 dark:invert opacity-90 hover:opacity-100 transition-opacity"
               />
             </div>
 
