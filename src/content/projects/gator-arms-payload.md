@@ -34,7 +34,7 @@ Our design features a compact, reliable deployment mechanism. Below is a demonst
 <!-- TODO: Add high-quality render of the satellite slowly rotating. Implement scroll-scrubbing ability for the user. -->
 
 ![GATOR Arms Assembly](/assets/projects/gator-arms/GATORArmsAssem.png)
-*Exploded view of the payload assembly.*
+*End-effector grasping a Rubik's Cube as an example of the payload's capabilities.*
 
 ### Gallery
 
